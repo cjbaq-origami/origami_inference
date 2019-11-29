@@ -7,6 +7,12 @@ slalom| Contains code for baselines and Origami
 cGAN-reconstruct-image/split_layer6 |  Contains code for collecting intermediate feature maps used for training c-GAN
 cGAN-reconstruct-image/code_split_layer6 | contains code for training c-GAN networks
 
+## Prerequisites
+```
+Hardware: Intel processor equipped with SGX, Nvidia GPU (optional)
+Software: python3.6, tensorflow, keras, intel sgx
+```
+
 ### To collect intermediate feature maps
 ```
 cd cGAN-reconstruct-image/split_layer6
