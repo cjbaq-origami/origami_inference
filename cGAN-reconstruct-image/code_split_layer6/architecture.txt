@@ -1,0 +1,9 @@
+image: (224,224,3), feat: (112, 112, 64)
+
+distriminator:
+image: (224, 224, 3) -> conv : (112, 112, 64)
+(image, feat): (112, 112, 128)
+
+
+Generator:
+
