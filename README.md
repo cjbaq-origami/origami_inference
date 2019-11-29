@@ -33,7 +33,7 @@ python -u -m python.slalom.scripts.eval_slalom_base vgg_16 --batch_size=32 --max
 ### To run Origami
 ```
 cd slalom
-python -u -m python.slalom.scripts.eval_slalom vgg_16 --batch_size=16 --max_num_batches=4 --blinding --use_sgx
+python -u -m python.slalom.scripts.eval_slalom vgg_16 --batch_size=32 --max_num_batches=1 --blinding --use_sgx
 ```
 
 ### References
