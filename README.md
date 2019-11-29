@@ -1,5 +1,5 @@
 # origami_inference
-Faster private inference using secure enclaves
+Private inference using hardware enclaves
 ## Folder Structure
 Folder|Description|
 ---|---
