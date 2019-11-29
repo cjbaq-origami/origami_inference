@@ -26,5 +26,5 @@ python36 main.py --gpu 0 -i "path to intermediate feature maps"
 ```
 ### References
 ```
-The Intel SGX related code of this project is built using the code of Slalom (https://github.com/ftramer/slalom)
+The code in this project related to Intel SGX is built on top of [Slalom] (https://github.com/ftramer/slalom)
 ```
