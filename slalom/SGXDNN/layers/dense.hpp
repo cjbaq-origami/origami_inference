@@ -61,7 +61,7 @@ namespace SGXDNN
 				// TODO compute original MAC tags
 			}
 			#endif
-                        use_sharding_ = true;
+                        
 			if (use_sharding_) {
 				// keep the weights outside the enclave for now
 				kernel_data_ = kernel;

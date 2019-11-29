@@ -182,7 +182,7 @@ namespace SGXDNN
 					printf("lazy loading convolution of size %ld\n", kernel_size);
 				}
 				#endif
-				lazy_load_=true;
+				
 				// copy kernel and bias
 				if (lazy_load_) {
 					kernel_data_ = kernel;
