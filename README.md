@@ -9,8 +9,8 @@ cGAN-reconstruct-image/code_split_layer6 | contains code for training c-GAN netw
 
 ## Prerequisites
 ```
-Hardware: Intel processor equipped with SGX, Nvidia GPU (optional)
-Software: python3.6, tensorflow, keras, intel sgx
+Hardware: Intel processor equipped with SGX, Nvidia GPU
+Software: Python3.6, TensorFlow, Keras, Intel SGXSDK
 ```
 
 ### To collect intermediate feature maps
@@ -23,4 +23,8 @@ python36 split_vgg16.py -p "path to the image dataset"
 ```
 cd cGAN-reconstruct-image/code_split_layer6
 python36 main.py --gpu 0 -i "path to intermediate feature maps"
+```
+### References
+```
+The Intel SGX related code of this project is built using the code of Slalom (https://github.com/ftramer/slalom)
 ```
