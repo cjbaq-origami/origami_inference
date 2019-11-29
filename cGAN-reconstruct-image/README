@@ -1,0 +1,2 @@
+split_layer6 |  Contains code for collecting intermediate feature maps used for training c-GAN
+code_split_layer6 | contains code for training c-GAN networks
